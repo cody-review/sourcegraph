@@ -87,6 +87,7 @@ const TextArea: React.FunctionComponent<ChatUITextAreaProps> = ({
 const SubmitButton: React.FunctionComponent<ChatUISubmitButtonProps> = ({ className, disabled, onClick }) => (
     <button className={className} type="submit" disabled={disabled} onClick={onClick}>
         <SubmitSvg />
+        Submit
     </button>
 )
 
